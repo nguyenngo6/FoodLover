@@ -1,0 +1,86 @@
+//{
+//  "project_info": {
+//    "project_number": "1052813624517",
+//    "firebase_url": "https://recipecooking-3e9cd.firebaseio.com",
+//    "project_id": "recipecooking-3e9cd",
+//    "storage_bucket": "recipecooking-3e9cd.appspot.com"
+//  },
+//  "client": [
+//    {
+//      "client_info": {
+//        "mobilesdk_app_id": "1:1052813624517:android:46ab8872bcd011f4",
+//        "android_client_info": {
+//          "package_name": "android.example.com.recipecooking"
+//        }
+//      },
+//      "oauth_client": [
+//        {
+//          "client_id": "1052813624517-kseka9e3gkc1bbvle4b0osij5fn5tisl.apps.googleusercontent.com",
+//          "client_type": 3
+//        }
+//      ],
+//      "api_key": [
+//        {
+//          "current_key": "AIzaSyBx2PP_qiYyDVQQpaoCHdFWMOwxSqwN3HY"
+//        }
+//      ],
+//      "services": {
+//        "analytics_service": {
+//          "status": 1
+//        },
+//        "appinvite_service": {
+//          "status": 1,
+//          "other_platform_oauth_client": []
+//        },
+//        "ads_service": {
+//          "status": 2
+//        }
+//      }
+//    }
+//  ],
+//  "configuration_version": "1"
+//}
+//
+
+{
+  "project_info": {
+    "project_number": "1700723489",
+    "firebase_url": "https://videourl-751c3.firebaseio.com",
+    "project_id": "videourl-751c3",
+    "storage_bucket": "videourl-751c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1700723489:android:46ab8872bcd011f4",
+        "android_client_info": {
+          "package_name": "android.example.com.recipecooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1700723489-6in8mestkbfpo06o55bj472dco28lt0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo9XF_NzlZASVNNCVMvXDfdt5AytwIdFw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/banner"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/banner"/>
+
+        <TextView
+            android:id="@+id/city_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@id/locationTextHeader"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/updated_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:visibility="invisible"
+            />
+        <TextView
+            android:id="@+id/selectCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change city"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:textColor="#5775a5"
+            android:layout_below="@id/TEXT6"
+          />
+
+        <TextView
+            android:id="@+id/TEXT6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THE ALL IN ONE FOOD PLATFORM"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="95dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_centerHorizontal="true"
+
+            android:textColor="#000000"
+
+            />
+        <TextView
+            android:id="@+id/getCurrent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current city"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:textColor="#5775a5"
+            android:layout_below="@id/selectCity"
+          />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/locationTextHeader"
+            android:text="DISCOVER"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#696c70"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_below="@id/TEXT6"
+            />
+        <TextView
+            android:id="@+id/weather_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="10dp"
+           android:visibility="invisible"
+            />
+
+
+        <TextView
+            android:id="@+id/current_temperature_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/city_field"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/details_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonNearby"
+           android:visibility="invisible"
+            />
+        <TextView
+            android:id="@+id/humidity_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonNearby"
+            android:visibility="invisible"
+            />
+        <TextView
+            android:id="@+id/pressure_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+           android:visibility="invisible"
+            />
+
+        <ProgressBar
+            android:id="@+id/loader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+
+        <TextView
+            android:id="@+id/TEXT1"
+            android:text="LATEST"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonNearby"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#696c70"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TEXT2"
+            android:text="TODAY RECOMMENDATION"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TEXT1"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#212223"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        />
+
+        <Button
+            android:id="@+id/buttonHot"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/TEXT2"
+            android:background="@drawable/hotbutton"
+            android:layout_height="200dp"/>
+
+        <Button
+            android:id="@+id/buttonCold"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/TEXT2"
+            android:background="@drawable/coldbutton"/>
+
+
+        <TextView
+            android:id="@+id/TEXT3"
+            android:text="DAILY VIDEO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonHot"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#212223"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+        />
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/player"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@+id/TEXT3"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/buttonNearby"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_below="@id/current_temperature_field"
+            android:background="@drawable/button_nearby"
+            />
+
+        <TextView
+            android:id="@+id/TEXT4"
+            android:text="EXPLORE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/player"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#696c70"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        />
+
+
+        <TextView
+            android:id="@+id/locationText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:visibility="invisible" />
+        />
+
+        <TextView
+            android:id="@+id/TEXT5"
+            android:text="RECIPES AND MEAL DIARY "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TEXT4"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#212223"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        />
+
+
+        <Button
+            android:id="@+id/buttonRecipes"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="@drawable/button_recipe"
+            android:layout_below="@+id/TEXT5"/>
+
+        <Button
+            android:id="@+id/buttonDiary"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/button_diary"
+            android:layout_height="150dp"
+            android:layout_below="@+id/buttonRecipes"/>
+
+    </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

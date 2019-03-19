@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Recipe Cooking</string>
+    <string-array name="meal_array">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Break</item>
+        <item>Drinks</item>
+    </string-array>
+
+
+</resources>

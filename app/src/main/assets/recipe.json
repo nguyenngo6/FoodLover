@@ -1,0 +1,145 @@
+[
+  {
+    "id": "1",
+    "name": "VEGAN ACORN SQUASH LASAGNA",
+    "description": "Pureed acorn squash and ricotta cheese make a rich, creamy filling in this tasty alternative to traditional lasagna. Using no-boil noodles reduces the preparation time by about 30 minutes",
+    "type": 0,
+    "temType": 1,
+    "imageURL": "vegan",
+    "videoURL": "105&v=RO8F9e_Q9Cw",
+    "ingredients": "Olive oil, for baking dish, 1/2 teaspoon dried rubbed sage, 4 cups Basic Acorn Squash Puree, or 2 packages (12 ounces each) frozen winter squash puree, thawed, 1 container (15 ounces) part-skim ricotta cheese, 8 no-boil lasagna noodles, half of an 8-ounce package",
+    "instruction": [
+      {
+        "step": "Step1: Using the cashew cream, add it to a saucepan on low heat and steep with a few sprigs of thyme and salt to taste. Once this starts to steam, remove from the heat as it easily burns and remove the sprigs of thyme.",
+        "imageURL": "milk"
+      },
+      {
+        "step": "Step2: Once the squash is tender, remove from the oven and begin stacking your lasagna",
+        "imageURL": "squash"
+      }
+    ],
+    "tipandtrick": " Tips & Tricks: Healthy Food"
+  },
+  {
+    "id": "2",
+    "name": "APPLE-WHISKEY DONUTS",
+    "description": "Apples and whiskey are such a perfect combo…add them to donuts and the magic begins. I’d love to tackle a yeast leavened donut next for a nice sour-dough kind of vibe, but these will more-than-do in the meantime! Hope you enjoy!!",
+    "type": 0,
+    "temType": 1,
+    "imageURL": "donut",
+    "videoURL": "6TWjFjA7OSY",
+    "ingredients": "9 Ounces dry Lasagna Pasta (5-6 sheets approx), 2 Cups Unsalted Cashews, 2 cups water, 1 Teaspoon Minced Garlic, 1 Teaspoon Chopped Thyme, 2 Teaspoons Nutritional Yeast, 2 Cups Flour, 2 1⁄2 Tablespoons Olive Oil, 1 Bunch Parsley, 1⁄4 Cup Canola Oil, 2 Acorn Squash, 2 Cups Spinach",
+    "instruction": [
+      {
+        "step": "Step1: Drizzle some olive oil in pan heated on high.",
+        "imageURL": "stepdonut1"
+      },
+      {
+        "step": "Step2: I did equal amounts of spiced sugar",
+        "imageURL": "stepdonut2"
+      }
+    ],
+    "tipandtrick": " Tips & Tricks: Healthy Food"
+  },
+  {
+    "id": "3",
+    "name": "Bun Bo Hue",
+    "description": "Anthony Bourdain, a famous chef who accompanied former US President Barack Obama to eat the best bun cha in Hanoi, exclaimed that bun bo Hue “is the best soup in the world!” Let’s find out why bun bo Hue makes a strict food reviewer like Bourdain announce such a glowing compliment!",
+    "type": 1,
+    "temType": 0,
+    "imageURL": "bunbohue",
+    "videoURL": "eOmQbJljnqE",
+    "ingredients": "1 kg beef/pork bones, 1 kg pork trotters, 1 kg beef shank, 1 kg rice vermicelli noodle , 1 tbsp salt, 1 tbsp sugar, 6 stalks lemon grass, 1 tbsp chili powder/ chili flakes, 2 tbsp Vietnamese fermented shrimp paste, 1 kg dried round thick rice vermicelli.",
+    "instruction": [
+      {
+        "step": "Step1: Place the beef/pork bones and the pork trotters in a stockpot: Filled with enough water to cover. Bring to a boil over high heat and cook for 5-10 minutes until the impurities rise to the top. Dump out the whole pot, rinse the bones well to wash off the scum. Wash the pot clean.",
+        "imageURL": "pork"
+      },
+      {
+        "step": "Step2: Make the Saté: Heat vegetable oil in a pan, sautee minced lemongrass, garlic and shallot until fragrant and slightly golden. Then take off the heat. Add chili powder, fish sauce, sugar, beef broth, stir well and simmer under low heat for 5 mins until smooth. Add half of this saté to the stockpot. Save the rest in a small bowl for serving later.",
+        "imageURL": "sate"
+      }
+    ],
+    "tipsandtricks": " Tips & Tricks: Sometimes, if you don’t tell the seller in advance, they will include pig foot (mong heo), which is not as tasty as pig shank (gio heo). Tell them that you want to eat pig shank (gio heo) because it’s the most delicious."
+  },
+  {
+    "id": "4",
+    "name": "Pho",
+    "description": "The Vietnamese national dish, this soup is just the ticket when you feel you’ve overindulged or need fortifying. A rich, deep broth made from meat bones and filled with rice noodles, aromatics and fresh herbs",
+    "type": 1,
+    "temType": 0,
+    "imageURL": "pho",
+    "videoURL": "hz70ucYZyy4",
+    "ingredients": "4 pounds oxtails or beef short ribs, 18 cups water, 1 teaspoon vegetable oil, 1 medium onion, halved, One 3-inch piece unpeeled fresh ginger, halved lengthwise, Two 3-inch cinnamon sticks, broken into pieces, 4 star anise pods, broken into pieces, 2 teaspoons fennel seeds, 1 pound rice vermicelli, 1 pound beef round, partially frozen and very thinly sliced across the grain",
+    "instruction": [
+      {
+        "step": "Step1: Cut your meat into pieces: If you're buying pieces of meat directly from a butcher's store, you may need to cut the beef into chunks for the pho. The chunks should be roughly bite-sized. If you have any doubts, try placing them on a spoon to see whether you need to cut them any further. You can add as much or as little",
+        "imageURL": "meatcut"
+      },
+      {
+        "step": "Step2: Simmer a pot of water in beef bones: Beef bones are where you'll get the distinctive broth taste. It's recommended that you let the broth simmer for 3 hours with the beef bones in the soup. From there, the bones should have left their flavour in the broth, and you can replace the bones with the edible beef ingredients.",
+        "imageURL": "simmer"
+      },
+      {
+        "step": "Step3: Throw charred onions and ginger into the mix: Onions and ginger help to give the pho that pleasant smokiness. Charred onions have the best effect. Take a pair of tongs and use them to hold onions over a gas-powered stove. From there, chop them up into thin slices and add them to the pho. You will definitely notice the improvement to your broth.",
+        "imageURL": "ginger"
+      }
+
+    ],
+    "tipandtrick": " Tips & Tricks: Vegetarian pho can be man with tofu and seitan, if you're into that sort of thing, Pho is a great hangover cure, If you're interested in Vietnamese cooking, check out Andrea Nguyen's cookbook Into the Vietnamese Kitchen. The book contains lots of in-depth recipes, and can show you some of the best tricks in Vietnamese cuisine."
+  },
+  {
+    "id": "5",
+    "name": "Cherry Limeade",
+    "description": "Delicious recipe for Sonic's Cherry Limeade - tastes just like it! Ingredients include 7-Up, cherries, a lime, and maraschino syrup!",
+    "type": 2,
+    "temType": 1,
+    "imageURL": "cherrylimade",
+    "videoURL": "HZe98kYT2yQ",
+    "ingredients": "1 can 7UP or Sprite, 2 cherries, 1/2 lime wedge, Ice (we used Sonic's ice, 2 tbsp Maraschino Syrup ",
+    "instruction": [
+      {
+        "step": "Place 2 cherries and ¼ lime in the bottom of your drink.",
+        "imageURL": "cherrylimade1"
+      },
+      {
+        "step": "Step2:Add ice and then your pop.",
+        "imageURL": "cherrylimade2"
+      },
+      {
+        "step": "Step3: Add 2 TB Maraschino Syrup and juice from ¼ lime.",
+        "imageURL": "cherrylimade3"
+      }
+
+    ],
+    "tipandtrick": "Good for the hot days"
+  },
+  {
+    "id": "6",
+    "name": "Vanila Ice Cream",
+    "description": "Rich and creamy homemade vanilla ice cream recipe that only requires five ingredients!",
+    "type": 2,
+    "temType": 1,
+    "imageURL": "icecream",
+    "videoURL": "iyypG7DMbIg",
+    "ingredients": "1¾ cups heavy cream, 1¼ cup whole milk, sugar, 1 tablespoon vanilla extract or 1 vanilla bean split in half lengthwise",
+    "instruction": [
+      {
+        "step": "Pour everything together.",
+        "imageURL": "icecream1"
+      },
+      {
+        "step": "Stir to combine and chill in the refrigerator",
+        "imageURL": "icecream2"
+      },
+      {
+        "step": "Step3: Add strawberry and enjoy",
+        "imageURL": "icecream3"
+      }
+
+    ],
+    "tipandtrick": "Good for the hot days"
+  }
+
+
+]

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipeDetailActivity"
+    android:orientation="vertical">
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight = "1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:id="@+id/scrollViewRecipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtRecipeName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/headerText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text=""
+                        android:visibility="invisible"
+                       />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#e42121"></View>
+
+                    <TextView
+                        android:id="@+id/txtRecipeDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:textSize="14sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#e42121"></View>
+
+                    <TextView
+                        android:id="@+id/txtRecipeIngredients"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:textSize="14sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#e42121"></View>
+
+                    <TextView
+                        android:id="@+id/txtRecipeTipAndTricks"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </ScrollView>
+
+            <Button
+                android:id="@+id/btnStepByStepMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="Go Step by Step Cooking" />
+
+            <ImageButton
+                android:id="@+id/favImageButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/unlike"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"/>
+
+            <ImageButton
+                android:id="@+id/addDiaryButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/diary"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
